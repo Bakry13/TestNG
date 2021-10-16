@@ -1,0 +1,11 @@
+<suite name="WebTest" >
+ 	<test name="AutomationProject">
+		<classes>
+			<class name="features.Annotation">
+				<methods>
+					<include name="firstTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

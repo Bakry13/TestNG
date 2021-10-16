@@ -1,0 +1,17 @@
+<suite name="TestNGTest" >
+ 	<test name="GroupingTest">
+ 	<groups>
+			<run>
+				<include name = "Retest"/>
+				<include name = "Regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="features.Grouping">
+				<!-- <methods>
+					<include name="firstTest" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

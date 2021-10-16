@@ -1,0 +1,20 @@
+<suite name="AutomationPractice" parallel="tests">
+ 	<test name="Login">
+		<classes>
+			<class name="features.Parallelization">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Search">
+		<classes>
+			<class name="features.Parallelization">
+				<methods>
+					<include name="search" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

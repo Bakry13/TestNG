@@ -1,0 +1,8 @@
+<suite name="AutomationPractice" >
+ 	<test name="Login">
+		<classes>
+			<class name="features.DataProviderFeature">
+			</class>
+		</classes>
+	</test>
+</suite>
