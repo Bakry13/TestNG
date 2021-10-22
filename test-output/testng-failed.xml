@@ -5,7 +5,7 @@
     <classes>
       <class name="features.DataProviderFeature">
         <methods>
-          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="loginTest" invocation-numbers="1"/>
           <include name="browserInit"/>
         </methods>
       </class> <!-- features.DataProviderFeature -->

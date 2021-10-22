@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T15:58:11 EET" name="AutomationPractice" finished-at="2021-10-16T15:58:26 EET" duration-ms="15577">
+  <suite started-at="2021-10-16T21:48:56 EET" name="Default suite" finished-at="2021-10-16T21:49:14 EET" duration-ms="18141">
     <groups>
     </groups>
-    <test started-at="2021-10-16T15:58:11 EET" name="Login" finished-at="2021-10-16T15:58:26 EET" duration-ms="15577">
+    <test started-at="2021-10-16T21:48:56 EET" name="Default test" finished-at="2021-10-16T21:49:14 EET" duration-ms="18141">
       <class name="features.DataProviderFeature">
-        <test-method is-config="true" signature="browserInit()[pri:0, instance:features.DataProviderFeature@485966cc]" started-at="2021-10-16T15:58:11 EET" name="browserInit" finished-at="2021-10-16T15:58:13 EET" duration-ms="2498" status="PASS">
+        <test-method is-config="true" signature="browserInit()[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:48:56 EET" name="browserInit" finished-at="2021-10-16T21:49:01 EET" duration-ms="4345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInit -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@485966cc]" started-at="2021-10-16T15:58:13 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T15:58:22 EET" duration-ms="8579" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:49:01 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T21:49:10 EET" duration-ms="8933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@485966cc]" started-at="2021-10-16T15:58:22 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T15:58:26 EET" duration-ms="4451" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:49:10 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T21:49:14 EET" duration-ms="4793" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user2]]>
+                <![CDATA[test@moakt.cc]]>
               </value>
             </param>
             <param index="1">
@@ -44,6 +44,6 @@
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- features.DataProviderFeature -->
-    </test> <!-- Login -->
-  </suite> <!-- AutomationPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

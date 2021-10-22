@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class DisableEnable {
 	
-	@Test(dependsOnMethods={"B"})
+	@Test
 	public void A(){
 		System.out.println("Test Case A");
 	}

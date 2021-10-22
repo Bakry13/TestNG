@@ -1,9 +1,9 @@
 <suite name="TestNGTest" >
  	<test name="GroupingTest">
- 	<groups>
+ 		<groups>
 			<run>
 				<include name = "Retest"/>
-				<include name = "Regression"/>
+				
 			</run>
 		</groups>
 		<classes>

@@ -17,10 +17,12 @@ public class Prioritization {
 	public void ThirdTest(){
 		System.out.println("third Test Case");
 	}
+	
 	@BeforeMethod
 	public void BeforeEveryMethod(){
 		System.out.println("Executed before every method");
 	}
+	
 	@AfterMethod
 	public void AfterEveryMethod(){
 		System.out.println("Executed after every method");

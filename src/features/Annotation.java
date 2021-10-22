@@ -21,5 +21,4 @@ public class Annotation {
 	public void AfterEveryMethod(){
 		System.out.println("Executed after every method");
 	}
-
 }

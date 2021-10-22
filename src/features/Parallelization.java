@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 
 public class Parallelization {
 	ChromeDriver driver;
+	String driverPath = "C:\\Users\\Mohamed\\Desktop\\Course\\TestNG\\src\\resources\\chromedriver.exe";
 	
 	@Test
 	void login()
 	{
 		try {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Mohamed\\Desktop\\Course\\TestNG\\src\\resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", driverPath);
 			driver = new ChromeDriver();
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.get("http://automationpractice.com/");
@@ -31,8 +31,7 @@ public class Parallelization {
 	void search()
 	{
 		try {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Mohamed\\Desktop\\Course\\TestNG\\src\\resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", driverPath);
 			driver = new ChromeDriver();
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.get("http://automationpractice.com/");
