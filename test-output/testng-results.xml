@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T21:48:56 EET" name="Default suite" finished-at="2021-10-16T21:49:14 EET" duration-ms="18141">
+  <suite started-at="2025-04-21T20:55:10 EET" name="Default Suite" finished-at="2025-04-21T20:55:10 EET" duration-ms="50">
     <groups>
     </groups>
-    <test started-at="2021-10-16T21:48:56 EET" name="Default test" finished-at="2021-10-16T21:49:14 EET" duration-ms="18141">
-      <class name="features.DataProviderFeature">
-        <test-method is-config="true" signature="browserInit()[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:48:56 EET" name="browserInit" finished-at="2021-10-16T21:49:01 EET" duration-ms="4345" status="PASS">
+    <test started-at="2025-04-21T20:55:10 EET" name="TestNGExamples" finished-at="2025-04-21T20:55:10 EET" duration-ms="50">
+      <class name="features.Dependency">
+        <test-method signature="E()[pri:0, instance:features.Dependency@222114ba]" started-at="2025-04-21T20:55:10 EET" name="E" finished-at="2025-04-21T20:55:10 EET" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserInit -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:49:01 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T21:49:10 EET" duration-ms="8933" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- E -->
+        <test-method signature="D()[pri:1, instance:features.Dependency@222114ba]" started-at="2025-04-21T20:55:10 EET" name="D" finished-at="2025-04-21T20:55:10 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:features.DataProviderFeature@4dbb42b7]" started-at="2021-10-16T21:49:10 EET" name="loginTest" data-provider="LoginModule" finished-at="2021-10-16T21:49:14 EET" duration-ms="4793" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@moakt.cc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass@w0rd]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- D -->
+        <test-method signature="C()[pri:2, instance:features.Dependency@222114ba]" started-at="2025-04-21T20:55:10 EET" name="C" finished-at="2025-04-21T20:55:10 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- features.DataProviderFeature -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- C -->
+        <test-method signature="A()[pri:1, instance:features.Dependency@222114ba]" started-at="2025-04-21T20:55:10 EET" name="A" finished-at="2025-04-21T20:55:10 EET" depends-on-methods="features.Dependency.C" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="B()[pri:2, instance:features.Dependency@222114ba]" started-at="2025-04-21T20:55:10 EET" name="B" finished-at="2025-04-21T20:55:10 EET" depends-on-methods="features.Dependency.C" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- features.Dependency -->
+    </test> <!-- TestNGExamples -->
+  </suite> <!-- Default Suite -->
 </testng-results>

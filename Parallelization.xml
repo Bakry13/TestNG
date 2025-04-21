@@ -1,18 +1,18 @@
 <suite name="AutomationPractice" parallel="tests" thread-count = "2">
- 	<test name="Search">
+ 	<test name="validLogin">
 		<classes>
 			<class name="features.Parallelization">
 				<methods>
-					<include name="search" />
+					<include name="validLogin" />
 				</methods>
 			</class>
 		</classes>
 	</test>
- 	<test name="Login">
+ 	<test name="invalidLogin">
 		<classes>
 			<class name="features.Parallelization">
 				<methods>
-					<include name="login" />
+					<include name="invalidLogin" />
 				</methods>
 			</class>
 		</classes>

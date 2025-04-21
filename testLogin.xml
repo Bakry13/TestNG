@@ -1,7 +1,7 @@
 <suite name="AutomationPractice" >
  	<test name="Login">
 		<classes>
-			<class name="features.DataProviderFeature">
+			<class name="features.features.DataProviderFeature">
 			</class>
 		</classes>
 	</test>
