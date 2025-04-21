@@ -1,0 +1,22 @@
+<suite name="OrangeHRM" parallel="tests" thread-count = "2">
+ 	<test name="valid login">
+		<parameter name="browser" value="Chrome" /> <!-- Chrome or Firefox or IE or Edge-->
+		<classes>
+			<class name="features.Parameterization">
+				<methods>
+					<include name="validLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+ 	<test name="invalid login">
+		<parameter name="browser" value="Firefox" /> <!-- Chrome or Firefox or IE or Edge-->
+		<classes>
+			<class name="features.Parameterization">
+				<methods>
+					<include name="invalidLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
